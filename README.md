@@ -1,4 +1,5 @@
 # BigBlueButton Exporter
+
 Prometheus exporter for BigBlueButton.
 On a HTTP `/metrics` request, the exporter will query the BigBlueButton's API for data which it then aggregates and exposes as Prometheus metrics.
 
